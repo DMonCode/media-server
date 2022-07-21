@@ -1,0 +1,7 @@
+---
+- hosts: all
+  vars:
+  tasks:
+  - name: Run Common
+    include_role:
+    - common
